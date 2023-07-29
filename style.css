@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+ header h1{
+    font-size: 50px;
+    font-family: "Bree-Serif"
+ }
+ header p{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+ }
+  
+main {
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(241, 236, 236);
+    height: 74vh;
+}
+  
+.upload-section, .results-section {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+button{
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(69, 112, 141);
+    border-color: #fff;
+    color: #fff;
+    font-weight: bold;
+    margin: 46px;
+    cursor: pointer;
+
+}
+  
+.results-section {
+    display: none;
+}
+  
